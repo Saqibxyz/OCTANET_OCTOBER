@@ -8,7 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 115vh;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 } 
 a{
     color:#fff;
@@ -36,7 +36,7 @@ a{
 }
 .goals{
     position: relative;
-    left: 10rem;
+    left: 6rem;
     bottom: 1rem;
     width: 80%;
 }
@@ -121,8 +121,21 @@ span{
     }
     .heading{
         right: 1rem;
+        font-size: 3.5ex;
     }
     .logo{
         font-size: x-small;
+    }
+    .contact{
+        top:1rem;
+        right:1.5rem;
+    }
+    .obj{
+        margin-bottom: 1rem;
+        margin-top: .3rem;
+    }
+    .goals{
+        left: 4rem;
+        font-size: 1.5ex;
     }
   }
