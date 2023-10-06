@@ -41,7 +41,7 @@ body{
 }
 .goals{
     position: relative;
-    left: 6rem;
+    left: 3rem;
     bottom: 1rem;
     width: 80%;
 }
@@ -52,7 +52,7 @@ body{
 }
 .issue{
     position: relative;
-    top: 5rem;
+    top: 7.8rem;
 }
 .logo{
    position: relative;
@@ -145,10 +145,13 @@ span{
         margin-top: .3rem;
     }
     .goals{
-        left: 4rem;
+        left: 3rem;
         font-size: 1.5ex;
     }
     body{
-        height: 130vh;
+        height: 139vh;
+    }
+    .issue{
+        top:5rem;
     }
   }
