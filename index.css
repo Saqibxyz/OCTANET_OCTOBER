@@ -52,7 +52,7 @@ body{
 }
 .issue{
     position: relative;
-    top: 7rem;
+    top: 5rem;
 }
 .logo{
    position: relative;
@@ -82,7 +82,7 @@ body{
 	text-shadow:0px 1px 0px #283966;
     position: relative;
     top: 7rem;
-    margin-bottom: 1ex;
+    
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
@@ -148,7 +148,7 @@ span{
         left: 4rem;
         font-size: 1.5ex;
     }
-    .body{
+    body{
         height: 130vh;
     }
   }
