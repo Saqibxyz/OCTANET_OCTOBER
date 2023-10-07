@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url("background.jpg");
@@ -29,7 +30,7 @@ body{
 }
 .contact{
     position: absolute;
-    right: 4rem;
+    right: 2rem;
     top: 2rem;
     
 }
@@ -45,9 +46,39 @@ body{
     bottom: 1rem;
     width: 80%;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    justify-content: center;
+}
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    font-size: 24px; 
+    color: #fff;
+    text-decoration: none;
+}
+
 .heading{
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     position: relative;
     left:5rem;
     
@@ -158,6 +189,17 @@ span{
     .issue{
         top:5rem;
     }
-	
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+    }
     
   }
+  
+
+
+
