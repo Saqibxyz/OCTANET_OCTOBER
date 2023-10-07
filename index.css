@@ -29,7 +29,7 @@ body{
 }
 .contact{
     position: absolute;
-    right: 2rem;
+    right: 4rem;
     top: 2rem;
     
 }
@@ -142,7 +142,7 @@ span{
     }
     .contact{
         top:1rem;
-        right:1.5rem;
+        right:.5rem;
     }
     .obj{
         margin-bottom: 1rem;
@@ -158,5 +158,6 @@ span{
     .issue{
         top:5rem;
     }
+	
     
   }
