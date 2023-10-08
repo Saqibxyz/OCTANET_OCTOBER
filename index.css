@@ -8,7 +8,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 115vh;
+    height: 100vh;
     font-family: 'helvetica', sans-serif;
 } 
 
@@ -27,6 +27,7 @@ body{
 }
 .contact-link{
     color: #fff;
+    text-decoration: none;
 }
 .contact{
     position: absolute;
@@ -38,6 +39,7 @@ body{
     position: relative;
     width: 90%;
     top: 5rem;
+    font-size: small;
     
 }
 .goals{
@@ -129,6 +131,8 @@ footer {
     width: 80%;
     line-height: 1.6;
     margin-top: 2rem;
+    letter-spacing: .1ex;
+    
 }
 .obj{
     font-weight: bolder;
@@ -184,7 +188,7 @@ span{
         font-size: 1.5ex;
     }
     body{
-        height: 139vh;
+        height: 110vh;
     }
     .issue{
         top:5rem;
